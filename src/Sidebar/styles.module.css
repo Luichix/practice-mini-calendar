@@ -1,0 +1,36 @@
+.container {
+position: absolute;
+background-color: #444;
+z-index: 999;
+top:  0;
+right: 0;
+max-width: 600px;
+
+
+}
+
+
+.containerOption {
+  display: flex;
+}
+
+.menuOption {
+  display: flex;
+  flex-direction: column;
+  outline: auto;
+  gap: 20px
+}
+
+.itemOption {
+  display: grid;
+ grid-template-columns: 60px 1fr;
+ align-items: center;
+}
+
+.option{
+  outline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
